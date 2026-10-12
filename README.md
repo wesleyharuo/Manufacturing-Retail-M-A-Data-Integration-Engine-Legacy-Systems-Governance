@@ -12,6 +12,14 @@ Accounting & Operational Reconciliation: Automated cross-system reconciliation m
 
 Executive Business Intelligence: Built dimensional data models utilizing Star Schema design principles and developed advanced Power BI analytical reports for profit margin tracking, managerial income statements (P&L), and inventory turns.
 
+To make it feel like a real platform the CIO’s team would use day to day, I set it in a believable scenario: Project Meridian, where Halvorsen Manufacturing (SAP) is absorbing Northgate Retail (Business Central), now on Day 142 of the integration. The numbers connect across the page, so the story holds up when someone looks closely:
+
+The ETL success rate works out to 2,841 of 2,866 runs. The hourly chart shows those failures clustering in the 04:00–06:00 batch window.
+Those failures trace back to the Business Central stock-sync timeout. It appears as the red, pulsing edge in the topology and as the top “Failed” row in the pipeline monitor.
+That same failure explains why inventory accuracy sits below its 98.5% target. The weak material master score (79, missing units of measure) is the root cause called out under the data quality chart.
+The $1.90M unreconciled total on the finance card is the sum of the six entity bars, with Northgate US carrying the largest share.
+The governance alerts are specific to a Canadian deal: a SOX segregation-of-duties conflict, a Quebec Law 25 data-residency breach, and a PCI certificate about to expire on legacy POS.
+
 Key Technologies Used
 Languages & Data Engineering: Python, Pandas, Advanced SQL
 
