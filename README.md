@@ -33,3 +33,9 @@ Guaranteed strict data consistency between shop floors/retail stores and the fin
 Cut audit preparation and monthly accounting close times down significantly.
 
 Empowered leadership to make data-driven decisions backed by real-time financial and operational metrics.
+
+
+<img width="2880" height="4752" alt="Integration Command Center@2x" src="https://github.com/user-attachments/assets/12602996-dbaf-4d50-bae9-27fbffb9ae06" />
+
+
+
